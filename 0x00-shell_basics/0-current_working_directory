@@ -1,3 +1,2 @@
 #!/bin/bash
-currentWorkingDirectory=$(realpath $(pwd))
-echo "$currentWorkingDirectory"
+echo "$(realpath $(pwd))"
