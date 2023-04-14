@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /bin/ls ls
+echo "$(ln -s /bin/ls ls)"
